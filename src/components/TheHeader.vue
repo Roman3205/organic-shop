@@ -8,22 +8,22 @@
         </div>
         <div class="flex gap-5 items-center">
           <div class="border-r-2 border-r-slate-300 pr-6">
-            <select class="bg-gray-200 p-1 border-gray-300 text-sm rounded-lg">
+            <select class="bg-gray-200 header-footer-hover p-1 border-gray-300 text-sm rounded-lg">
               <option selected value="EN">Eng</option>
               <option value="RU">Ru</option>
             </select>
           </div>
           <div class="flex gap-3 items-center">
-            <p>Sign in</p>
+            <p class="header-footer-hover">Sign in</p>
             <p>/</p>
-            <p>Sign up</p>
+            <p class="header-footer-hover">Sign up</p>
           </div>
         </div>
       </div>
     </div>
     <div class="text-sm flex w-full justify-center border-b-2">
       <div class="flex flex-wrap w-full items-center justify-between py-5 max-w-screen-lg">
-        <div class="flex items-center gap-3">
+        <div class="flex items-center gap-3 cursor-pointer">
           <TheLogoIcon />
           <h1 class="text-3xl text-gray-9">Ecobazar</h1>
         </div>
@@ -32,12 +32,12 @@
           <form class="flex h-11">
             <input
               type="text"
-              class="h-full border-2 border-r-0 w-72 rounded-bl-md rounded-tl-md border-gray-300 transition-all duration-300 pl-9 pr-4 outline-none focus:border-gray-500"
+              class="h-full border-2 border-r-0 w-72 hover:border-hard-primary rounded-bl-md rounded-tl-md border-gray-300 transition duration-500 pl-9 pr-4 outline-none focus:border-primary"
               placeholder="Search"
             />
             <button
               type="submit"
-              class="text-center h-full rounded-br-md rounded-tr-md bg-primary text-gray-0 py-3 px-5"
+              class="text-center h-full hover:opacity-65 transition duration-500 rounded-br-md rounded-tr-md bg-primary text-gray-0 py-3 px-5"
             >
               Search
             </button>
@@ -54,7 +54,7 @@
               2
             </p>
             <TheCartIcon class="text-gray-9 w-10 h-10" />
-            <div>
+            <div class="cursor-pointer flex flex-col justify-between">
               <p class="text-gray-7">Shopping cart</p>
               <p class="font-semibold text-xl text-gray-9">&#36;57.00</p>
             </div>
@@ -66,27 +66,27 @@
       <div class="w-full flex items-center justify-between py-4 max-w-screen-lg">
         <div class="flex items-center gap-8">
           <select
-            class="appearance-none sel bg-transparent p-1 border-gray-300 text-sm text-gray-0 rounded-lg"
+            class="appearance-none header-footer-hover sel bg-transparent p-1 border-gray-300 text-sm text-gray-0 rounded-lg"
           >
             <option class="bg-gray-8" selected value="EN">Home</option>
             <option class="bg-gray-8" value="RU">...</option>
           </select>
           <select
-            class="appearance-none sel bg-transparent p-1 border-gray-300 text-sm text-gray-0 rounded-lg"
+            class="appearance-none header-footer-hover sel bg-transparent p-1 border-gray-300 text-sm text-gray-0 rounded-lg"
           >
             <option class="bg-gray-8" selected value="EN">Pages</option>
             <option class="bg-gray-8" value="RU">...</option>
           </select>
           <select
-            class="appearance-none sel bg-transparent p-1 border-gray-300 text-sm text-gray-0 rounded-lg"
+            class="appearance-none header-footer-hover sel bg-transparent p-1 border-gray-300 text-sm text-gray-0 rounded-lg"
           >
             <option class="bg-gray-8" selected value="EN">Blog</option>
             <option class="bg-gray-8" value="RU">...</option>
           </select>
-          <p class="pt-0.5">Abous Us</p>
-          <p class="pt-0.5">Contact Us</p>
+          <p class="pt-0.5 header-footer-hover">Abous Us</p>
+          <p class="pt-0.5 header-footer-hover">Contact Us</p>
         </div>
-        <div class="flex item-center gap-3">
+        <div class="flex item-center gap-3 header-footer-hover">
           <ThePhoneIcon />
           <p class="text-gray-1">(219) 555-0114</p>
         </div>

@@ -3,7 +3,7 @@
     <div class="max-w-screen-lg pt-12 w-full">
       <div class="flex border-b-2 border-gray-8 pb-12 justify-between items-center">
         <div class="flex flex-col gap-5">
-          <div class="flex items-center gap-3">
+          <div class="flex items-center gap-3 cursor-pointer">
             <TheLogoIcon />
             <h1 class="text-3xl text-gray-0">Ecobazar</h1>
           </div>
@@ -13,9 +13,13 @@
             congue nec.
           </p>
           <div class="flex items-center gap-5">
-            <p class="text-gray-1 border-b-2 border-primary w-fit text-base">(219) 555-0114</p>
+            <p class="text-gray-1 header-footer-hover border-b-2 border-primary w-fit text-base">
+              (219) 555-0114
+            </p>
             <p class="text-gray-5 text-base">or</p>
-            <p class="text-gray-1 border-b-2 border-primary w-fit text-base">ecobazar@gmail.com</p>
+            <p class="text-gray-1 header-footer-hover border-b-2 border-primary w-fit text-base">
+              ecobazar@gmail.com
+            </p>
           </div>
         </div>
         <FooterNavItem

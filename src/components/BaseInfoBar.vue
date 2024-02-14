@@ -1,12 +1,16 @@
 <template>
-  <div class="my-6 px-3 py-6 bg-white w-full shadow-md shadow-gray-2 flex justify-around">
-    <base-bar-item
-      v-for="bar in bars"
-      :svg="bar.svg"
-      :header="bar.header"
-      :text="bar.text"
-      :key="bar.id"
-    ></base-bar-item>
+  <div class="flex w-full justify-center">
+    <div
+      class="max-w-screen-lg my-6 px-3 py-6 bg-white w-full shadow-md shadow-gray-2 flex justify-around"
+    >
+      <base-bar-item
+        v-for="bar in bars"
+        :svg="bar.svg"
+        :header="bar.header"
+        :text="bar.text"
+        :key="bar.id"
+      ></base-bar-item>
+    </div>
   </div>
 </template>
 

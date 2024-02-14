@@ -1,5 +1,5 @@
 <template>
-  <div class="py-5 flex w-full flex-col items-center max-w-screen-lg">
+  <div class="flex w-full flex-col items-center">
     <MyMainInfo />
     <BaseInfoBar />
     <BasePopularCategories />
@@ -7,6 +7,7 @@
     <TheSalesBanners />
     <BaseHotDeals />
     <TheSaleSuggestion />
+    <TheFeedbacksBlock />
     <TheNewsBlock />
     <TheCompanyInfo />
   </div>
@@ -22,6 +23,7 @@ import TheSaleSuggestion from '@/components/TheSaleSuggestion.vue'
 import TheCompanyInfo from '@/components/TheCompanyInfo.vue'
 import TheNewsBlock from '@/components/TheNewsBlock.vue'
 import BaseHotDeals from '@/components/BaseHotDeals.vue'
+import TheFeedbacksBlock from '@/components/TheFeedbacksBlock.vue'
 </script>
 
 <style lang="scss" scoped></style>

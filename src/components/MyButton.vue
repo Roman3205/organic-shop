@@ -2,7 +2,7 @@
   <button
     type="button"
     :="attrs"
-    class="font-semibold items-center py-3 text-center flex gap-3 w-fit rounded-3xl"
+    class="font-semibold hover:opacity-65 transition duration-500 items-center py-3 text-center flex gap-3 w-fit rounded-3xl"
   >
     <slot></slot><TheArrowIcon />
   </button>

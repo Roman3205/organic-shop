@@ -5,7 +5,12 @@
       <TheHouseIcon class="text-gray-4" />
       <div class="flex justify-center gap-2" v-for="index in 2" :key="index">
         <TheArrowIcon class="text-gray-3" />
-        <p :class="{ 'text-hard-primary': index == 2 }" class="text-gray-4 font-semibold">Blog</p>
+        <p
+          :class="{ 'text-hard-primary': index == 2 }"
+          class="text-gray-4 font-semibold header-footer-hover"
+        >
+          Blog
+        </p>
       </div>
     </div>
   </div>

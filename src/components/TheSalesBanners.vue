@@ -1,19 +1,11 @@
 <template>
-  <div class="flex justify-center w-full">
+  <div class="flex justify-center w-full my-6">
     <div class="max-w-screen-lg w-full justify-between gap-4 flex">
       <div class="banner1 min-h-96 flex-col gap-3 w-full h-full flex items-center pt-5">
         <p class="uppercase font-light text-gray-0">best deal</p>
         <h2 class="text-gray-0 text-3xl font-semibold">Sale of the Month</h2>
         <div class="flex gap-3">
-          <div v-for="counter in counters" :key="counter.id" class="flex items-center gap-3">
-            <div class="flex flex-col items-center">
-              <h3 class="text-bold text-base text-gray-0">
-                {{ numberConverter(counter.number) }}
-              </h3>
-              <p class="uppercase font-light text-gray-0 text-xs">{{ counter.time }}</p>
-            </div>
-            <span v-if="counter.id != 4" class="text-gray-0">:</span>
-          </div>
+          <MyCounter :counters="counters" />
         </div>
         <my-button class="bg-gray-0 px-6 text-primary">Shop Now</my-button>
       </div>
@@ -40,7 +32,8 @@
 
 <script setup>
 import MyButton from '@/components/MyButton.vue'
-import { onMounted, ref } from 'vue'
+import MyCounter from '@/components/MyCounter.vue'
+import { ref } from 'vue'
 
 const counters = ref([
   {
@@ -64,27 +57,6 @@ const counters = ref([
     time: 'secs'
   }
 ])
-
-const timingOnCounter = () => {
-  setInterval(() => {
-    counters.value[0].number = new Date().getDate()
-    counters.value[1].number = new Date().getHours()
-    counters.value[2].number = new Date().getMinutes()
-    counters.value[3].number = new Date().getSeconds()
-  }, 1000)
-}
-
-onMounted(() => {
-  timingOnCounter()
-})
-
-const numberConverter = (num) => {
-  if (num.toString().length == 1) {
-    return num.toFixed(1).split('.').reverse().join('').replace('.', '')
-  } else {
-    return num
-  }
-}
 </script>
 
 <style lang="scss" scoped>

@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-center w-full my-8">
-    <div class="max-w-screen-lg w-full flex flex-col gap-3 bg-white">
+    <div class="max-w-screen-lg w-full flex flex-col gap-6 bg-white">
       <div class="flex justify-between items-center">
         <h2 class="font-bold text-2xl">Popular Products</h2>
         <my-button class="text-primary bg-transparent">View All</my-button>
@@ -29,7 +29,7 @@ import MyButton from '@/components/MyButton.vue'
 const products = [
   {
     id: 1,
-    title: 'Fresh Fruit',
+    title: 'Fresh Fruit Fresh FruitFresh FruitFresh FruitFresh Fruit',
     image: 'product',
     price: 20.1,
     stars: 4,

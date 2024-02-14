@@ -1,6 +1,6 @@
 <template>
   <div
-    class="border-2 py-4 relative justify-between items-center flex flex-col gap-5 border-gray-1 rounded-lg"
+    class="bg-white hover:border-hard-primary trasition duration-500 cursor-pointer border-2 py-4 relative justify-between items-center flex flex-col gap-5 border-gray-1 rounded-lg"
   >
     <button
       v-if="sale"
@@ -20,16 +20,18 @@
     </div>
     <img class="w-full h-3/4" :src="`../src/assets/${image}.png`" width="120" :alt="image" />
     <div class="h-1/4 w-full px-4 flex justify-between items-center">
-      <div>
-        <p class="text-gray-7 text-md">{{ title }}</p>
-        <p class="text-lg font-semibold">&#36;{{ price.toFixed(2) }}</p>
-        <i
-          :class="{ 'text-gray-400': stars < index }"
-          class="text-warning fa fa-star"
-          v-for="index in 5"
-          :key="index"
-          aria-hidden="true"
-        ></i>
+      <div class="flex flex-col gap-1 justify-between">
+        <p class="text-gray-7 text-md line-clamp-1">{{ title }}</p>
+        <p class="text-lg font-semibold line-clamp-1">&#36;{{ price.toFixed(2) }}</p>
+        <div class="flex items-center gap-1">
+          <i
+            :class="{ 'text-gray-400': stars < index }"
+            class="text-warning fa fa-star"
+            v-for="index in 5"
+            :key="index"
+            aria-hidden="true"
+          ></i>
+        </div>
       </div>
       <div>
         <TheCartIcon

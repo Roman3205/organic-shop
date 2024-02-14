@@ -1,12 +1,13 @@
 <template>
-  <div class="flex my-10 justify-center w-full">
+  <div class="relative flex mt-4 justify-center w-full company">
+    <img src="@/assets/company-info.png" class="w-full max-h-40 object-cover" alt="" />
     <div
-      class="w-full -ml-3 gap-4 flex max-w-screen-lg items-center justify-center rounded-lg company min-h-44"
+      class="w-full absolute h-full gap-4 flex max-w-screen-lg items-center justify-center rounded-lg"
     >
       <div
         v-for="item in infoCompany"
         :key="item.id"
-        class="after:bg-gray-8 gap-1 max-h-32 after:rounded-md py-4 px-5 after:z-10 after:absolute relative after:opacity-40 after:top-0 after:left-0 after:right-0 after:bottom-0 z-20 flex flex-col items-center justify-center"
+        class="after:bg-gray-8 cursor-pointer gap-1 max-h-32 after:rounded-md py-4 px-5 after:absolute relative after:opacity-40 hover:after:opacity-25 after:transition after:duration-500 after:top-0 after:left-0 after:right-0 after:bottom-0 flex flex-col items-center justify-center"
       >
         <h1 class="text-3xl text-primary">{{ item.title }}</h1>
         <p class="text-xs text-gray-0 text-center">{{ item.text }}</p>
@@ -42,7 +43,6 @@ const infoCompany = [
 
 <style lang="scss" scoped>
 .company {
-  background: url('@/assets/company-info.png') no-repeat center center;
-  background-size: 100% 100%;
+  background-color: #000a06;
 }
 </style>

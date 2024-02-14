@@ -1,7 +1,6 @@
 <template>
-  <div class="flex mt-16 justify-center w-full">
+  <div class="flex mt-2 justify-center w-full">
     <div class="sales max-w-screen-lg w-full max-h-80 rounded-lg">
-      <!-- <img class="rounded-lg" src="@/assets/sale-main.png" alt="" /> -->
       <div class="flex-col gap-2.5 w-full h-full flex items-end py-10 pr-10">
         <div class="flex flex-col gap-4">
           <p class="text-sm uppercase font-light text-gray-0">summer sale</p>
