@@ -25,7 +25,7 @@ const newsBlocks = [
     id: 1,
     text: 'Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum. Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum. Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum.',
     category: 'Food',
-    comments: '31',
+    comments: 31,
     date: '18',
     image: 'news1'
   },
@@ -33,7 +33,7 @@ const newsBlocks = [
     id: 2,
     text: 'Eget lobortis lorem lacinia. Vivamus pharetra semper,',
     category: 'Food',
-    comments: '43',
+    comments: 43,
     date: '29',
     image: 'news2'
   },
@@ -41,7 +41,7 @@ const newsBlocks = [
     id: 3,
     text: 'Maecenas blandit risus elementum mauris malesuada.',
     category: 'Food',
-    comments: '17',
+    comments: 17,
     date: '21',
     image: 'news3'
   }

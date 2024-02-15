@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-white hover:border-hard-primary trasition duration-500 cursor-pointer border-2 py-4 relative justify-between items-center flex flex-col gap-5 border-gray-1 rounded-lg"
+    class="bg-white hover:border-primary trasition duration-500 cursor-pointer border-2 py-4 relative justify-between items-center flex flex-col gap-5 border-gray-1 rounded-lg"
   >
     <button
       v-if="sale"

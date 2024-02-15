@@ -6,11 +6,11 @@
         <div class="flex gap-3">
           <my-button
             @click.prevent="scrollReviews('left')"
-            class="text-gray-7 rotate-180 bg-white p-3 hover:bg-primary hover:text-gray-0 transition duration-500"
+            class="text-gray-7 rotate-180 bg-white p-3 hover:bg-primary hover:text-gray-0 transition duration-300"
           ></my-button>
           <my-button
             @click.prevent="scrollReviews('right')"
-            class="text-gray-7 bg-white p-3 hover:bg-primary hover:text-gray-0 transition duration-500"
+            class="text-gray-7 bg-white p-3 hover:bg-primary hover:text-white transition duration-300"
           ></my-button>
         </div>
       </div>

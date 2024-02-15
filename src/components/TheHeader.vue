@@ -66,19 +66,19 @@
       <div class="w-full flex items-center justify-between py-4 max-w-screen-lg">
         <div class="flex items-center gap-8">
           <select
-            class="appearance-none header-footer-hover sel bg-transparent p-1 border-gray-300 text-sm text-gray-0 rounded-lg"
+            class="appearance-none header-footer-hover sel bg-transparent p-1 text-sm text-gray-0 rounded-lg"
           >
             <option class="bg-gray-8" selected value="EN">Home</option>
             <option class="bg-gray-8" value="RU">...</option>
           </select>
           <select
-            class="appearance-none header-footer-hover sel bg-transparent p-1 border-gray-300 text-sm text-gray-0 rounded-lg"
+            class="appearance-none header-footer-hover sel bg-transparent p-1 text-sm text-gray-0 rounded-lg"
           >
             <option class="bg-gray-8" selected value="EN">Pages</option>
             <option class="bg-gray-8" value="RU">...</option>
           </select>
           <select
-            class="appearance-none header-footer-hover sel bg-transparent p-1 border-gray-300 text-sm text-gray-0 rounded-lg"
+            class="appearance-none header-footer-hover sel bg-transparent p-1 text-sm text-gray-0 rounded-lg"
           >
             <option class="bg-gray-8" selected value="EN">Blog</option>
             <option class="bg-gray-8" value="RU">...</option>

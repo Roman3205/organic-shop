@@ -6,6 +6,22 @@ html {
   @apply min-w-80;
 }
 
+html::-webkit-scrollbar-thumb {
+  @apply bg-primary w-3;
+}
+
+html::-webkit-scrollbar {
+  @apply bg-gray-2 w-3;
+}
+
+.products-block::-webkit-scrollbar {
+  @apply bg-gray-1 w-2;
+}
+
+.products-block::-webkit-scrollbar-thumb {
+  @apply bg-primary w-2;
+}
+
 body {
   background-color: #ffffff;
 }
@@ -17,6 +33,9 @@ body {
   }
   svg {
     @apply hover:opacity-75 transition duration-500;
+  }
+  select {
+    @apply focus:ring-0 focus:outline-none focus:border-gray-2 border-gray-7;
   }
 }
 

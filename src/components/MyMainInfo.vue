@@ -15,7 +15,7 @@
         </div>
         <my-button class="bg-gray-0 px-8 text-primary">Shop now</my-button>
       </div>
-      <div class="order-1 banner2 p-6 items-center flex flex-col gap-5">
+      <div class="order-1 banner2 p-4 items-center flex flex-col gap-5">
         <p class="uppercase font-light text-gray-0">best deal</p>
         <h1 class="text-gray-0 text-3xl">
           Special Products <br />
