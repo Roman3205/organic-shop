@@ -4,6 +4,9 @@ import FaqsPage from '@/views/FaqsPage.vue'
 import NotFound from '@/views/NotFoundPage.vue'
 import SignUpPage from '@/views/SignUpPage.vue'
 import SignInPage from '@/views/SignInPage.vue'
+import WishListPage from '@/views/WishListPage.vue'
+import ShoppingCartPage from '@/views/ShoppingCartPage.vue'
+import ProductPage from '@/views/ProductPage.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -31,6 +34,21 @@ const router = createRouter({
       path: '/sign-in',
       name: 'sign-in',
       component: SignInPage
+    },
+    {
+      path: '/shopping-cart',
+      name: 'cart',
+      component: ShoppingCartPage
+    },
+    {
+      path: '/wish-list',
+      name: 'wish-list',
+      component: WishListPage
+    },
+    {
+      path: '/product/:id',
+      name: 'product',
+      component: ProductPage
     },
     {
       path: '/:pathMatch(.*)',

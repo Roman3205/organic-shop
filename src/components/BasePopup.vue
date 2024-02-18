@@ -4,7 +4,7 @@
     <div
       class="flex justify-center w-full h-full items-center fixed opacity-100 top-0 bottom-0 right-0 left-0 z-50 bg-transparent"
     >
-      <div class="flex bg-gray-0 p-4 rounded-lg">
+      <div class="flex bg-white p-4 rounded-lg">
         <img class="rounded-md w-2/5" src="@/assets/popup-image.png" alt="" />
         <div class="flex w-3/5 flex-col gap-8 py-3 items-center">
           <div class="flex justify-end w-full px-3">

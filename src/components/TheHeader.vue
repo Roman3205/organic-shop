@@ -25,7 +25,7 @@
       <div class="flex flex-wrap w-full items-center justify-between py-5 max-w-screen-lg">
         <div class="flex items-center gap-3 cursor-pointer">
           <TheLogoIcon />
-          <h1 class="text-3xl text-gray-9">Ecobazar</h1>
+          <h1 class="text-3xl font-medium text-gray-9">Ecobazar</h1>
         </div>
         <div class="flex relative items-center">
           <TheSearchIcon class="absolute top-3 left-3" />

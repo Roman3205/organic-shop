@@ -49,9 +49,7 @@
         <p class="text-gray-7 text-xl line-clamp-1">{{ title }}</p>
         <div class="flex items-center gap-2">
           <p class="text-3xl font-semibold line-clamp-1">&#36;{{ price.toFixed(2) }}</p>
-          <p class="text-2xl font-semibold line-clamp-1 text-gray-4 line-through">
-            &#36;{{ lastPrice }}
-          </p>
+          <p class="text-2xl line-clamp-1 text-gray-3 line-through">&#36;{{ lastPrice }}</p>
         </div>
         <div class="flex items-center gap-1">
           <i

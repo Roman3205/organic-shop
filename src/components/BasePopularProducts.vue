@@ -14,7 +14,7 @@
           :price="product.price"
           :stars="product.stars"
           :is-in-cart="product.isInCart"
-          :is-sale="product.isSale"
+          :sale="product.sale"
           :is-in-favourites="product.isInFavourites"
         />
       </div>
@@ -31,11 +31,11 @@ const products = [
     id: 1,
     title: 'Fresh Fruit Fresh FruitFresh FruitFresh FruitFresh Fruit',
     image: 'product',
-    price: 20.1,
+    price: 200.1,
     stars: 4,
     isInCart: false,
     isInFavourites: true,
-    isSale: true
+    sale: 30
   },
   {
     id: 2,

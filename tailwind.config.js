@@ -31,7 +31,11 @@ module.exports = {
         'green-gray-3': 'rgb(150,178,151)',
         'green-gray-2': 'rgb(180,204,180)',
         'green-gray-1': 'rgb(218,229,218)',
-        'green-gray-0': 'rgb(237,242,238)'
+        'green-gray-0': 'rgb(237,242,238)',
+        'light-green': 'rgb(210, 240, 212)',
+        'hard-green': 'rgb(119, 172, 121)',
+        'light-red': 'rgb(251, 219, 218)',
+        'hard-red': 'rgb(242, 143, 141)'
       }
     },
   },
