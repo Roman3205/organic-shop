@@ -3,7 +3,7 @@
     <div class="text-sm border-b-2 w-full flex justify-center">
       <div class="flex flex-wrap w-full py-4 items-center justify-between max-w-screen-lg">
         <div class="flex gap-3 items-center">
-          <TheMapIcon />
+          <TheMapIcon class="h-6 w-6 text-gray-6" />
           <p class="pt-1">Store Location: Lincoln- 344, Illinois, Chicago, USA</p>
         </div>
         <div class="flex gap-5 items-center">
@@ -87,7 +87,7 @@
           <p class="pt-0.5 header-footer-hover">Contact Us</p>
         </div>
         <div class="flex item-center gap-3 header-footer-hover">
-          <ThePhoneIcon />
+          <ThePhoneIcon class="text-gray-2 w-6 h-6" />
           <p class="text-gray-1">(219) 555-0114</p>
         </div>
       </div>

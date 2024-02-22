@@ -4,7 +4,8 @@
     <TheCart v-if="showCart" />
     <TheHeader />
     <TheHeaderBreadcrumb v-if="!showBlocksNotFound" />
-    <router-view class="main"></router-view>
+    <AccountPage v-if="showAccount"></AccountPage>
+    <router-view class="main" v-else></router-view>
     <NewsLetterBlock v-if="!showBlocksNotFound" />
     <TheFooter />
   </div>
@@ -19,12 +20,14 @@ import TheFooter from '@/components/TheFooter.vue'
 import BasePopup from '@/components/BasePopup.vue'
 import TheCart from '@/components/TheCart.vue'
 import { ref, computed } from 'vue'
+import AccountPage from './views/AccountPage.vue'
 
 const route = useRoute()
 const showPopup = ref(false)
 const showCart = ref(false)
-
+const accountRoutes = ['dashboard', 'orders']
 const showBlocksNotFound = computed(() => route.name === 'not-found')
+const showAccount = computed(() => accountRoutes.includes(route.name))
 </script>
 
 <style lang="scss">
@@ -36,6 +39,6 @@ const showBlocksNotFound = computed(() => route.name === 'not-found')
   margin: 0;
 }
 .main {
-  min-height: calc(100vh - 332px - 108px - 210px - 81px);
+  min-height: calc(100vh - 332px - 108px - 81px - 37px);
 }
 </style>

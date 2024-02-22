@@ -5,8 +5,8 @@
       fill="none"
       viewBox="0 0 24 24"
       stroke-width="1.5"
-      stroke="white"
-      class="w-6 h-6"
+      stroke="currentColor"
+      :="attrs"
     >
       <path
         stroke-linecap="round"
@@ -17,6 +17,9 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { useAttrs } from 'vue'
+const attrs = useAttrs()
+</script>
 
 <style lang="scss" scoped></style>

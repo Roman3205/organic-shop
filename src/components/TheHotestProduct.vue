@@ -46,10 +46,12 @@
         </button>
       </div>
       <div class="flex flex-col items-center gap-2">
-        <p class="text-gray-7 text-xl line-clamp-1">{{ title }}</p>
+        <p class="text-gray-7 text-xl line-clamp-1 break-all">{{ title }}</p>
         <div class="flex items-center gap-2">
-          <p class="text-3xl font-semibold line-clamp-1">&#36;{{ price.toFixed(2) }}</p>
-          <p class="text-2xl line-clamp-1 text-gray-3 line-through">&#36;{{ lastPrice }}</p>
+          <p class="text-3xl font-semibold line-clamp-1 break-all">&#36;{{ price.toFixed(2) }}</p>
+          <p class="text-2xl line-clamp-1 break-all text-gray-3 line-through">
+            &#36;{{ lastPrice }}
+          </p>
         </div>
         <div class="flex items-center gap-1">
           <i

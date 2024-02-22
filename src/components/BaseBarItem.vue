@@ -2,8 +2,8 @@
   <div class="flex gap-3 items-center">
     <component :is="svgConverter"></component>
     <div class="flex flex-col gap-2">
-      <p class="text-sm font-bold line-clamp-1">{{ header }}</p>
-      <p class="text-gray-3 text-xs line-clamp-1">{{ text }}</p>
+      <p class="text-sm font-bold line-clamp-1 break-all">{{ header }}</p>
+      <p class="text-gray-3 text-xs line-clamp-1 break-all">{{ text }}</p>
     </div>
   </div>
 </template>

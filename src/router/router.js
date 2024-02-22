@@ -7,6 +7,11 @@ import SignInPage from '@/views/SignInPage.vue'
 import WishListPage from '@/views/WishListPage.vue'
 import ShoppingCartPage from '@/views/ShoppingCartPage.vue'
 import ProductPage from '@/views/ProductPage.vue'
+import ContactPage from '@/views/ContactPage.vue'
+import AboutPage from '@/views/AboutPage.vue'
+import TheOrderHistory from '@/components/TheOrderHistory.vue'
+import TheDashboard from '@/components/TheDashboard.vue'
+import ProductDetalizedPage from '@/views/ProductDetalizedPage.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -31,9 +36,24 @@ const router = createRouter({
       component: SignUpPage
     },
     {
+      path: '/product/details/:id',
+      name: 'product-detalized',
+      component: ProductDetalizedPage
+    },
+    {
+      path: '/account/orders/all',
+      name: 'orders',
+      component: TheOrderHistory
+    },
+    {
       path: '/sign-in',
       name: 'sign-in',
       component: SignInPage
+    },
+    {
+      path: '/account/dashboard',
+      name: 'dashboard',
+      component: TheDashboard
     },
     {
       path: '/shopping-cart',
@@ -46,9 +66,19 @@ const router = createRouter({
       component: WishListPage
     },
     {
+      path: '/about',
+      name: 'about',
+      component: AboutPage
+    },
+    {
       path: '/product/:id',
       name: 'product',
       component: ProductPage
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      component: ContactPage
     },
     {
       path: '/:pathMatch(.*)',

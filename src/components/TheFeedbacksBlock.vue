@@ -2,15 +2,15 @@
   <div class="flex bg-gray-0 justify-center w-full mt-10 mb-2">
     <div class="max-w-screen-lg w-full flex flex-col pt-8 pb-12 gap-7 bg-gray-0">
       <div class="flex items-center justify-between">
-        <h2 class="font-bold text-2xl">Hot Deals</h2>
+        <h2 class="font-bold text-2xl">Client Testimonail</h2>
         <div class="flex gap-3">
           <my-button
             @click.prevent="scrollReviews('left')"
-            class="text-gray-7 rotate-180 bg-white p-3 hover:bg-primary hover:text-gray-0 transition duration-300"
+            class="text-gray-7 rotate-180 bg-white p-3 hover:bg-primary hover:text-gray-0 transition duration-150"
           ></my-button>
           <my-button
             @click.prevent="scrollReviews('right')"
-            class="text-gray-7 bg-white p-3 hover:bg-primary hover:text-white transition duration-300"
+            class="text-gray-7 bg-white p-3 hover:bg-primary hover:text-white transition duration-150"
           ></my-button>
         </div>
       </div>

@@ -3,10 +3,10 @@
     <div class="flex items-center gap-1">
       <img :src="`../src/assets/${image}.png`" width="100" :alt="image" />
       <div class="flex flex-col gap-2">
-        <p class="line-clamp-1 text-gray-9 font-medium">{{ title }}</p>
+        <p class="line-clamp-1 text-gray-9 font-medium break-all">{{ title }}</p>
         <p class="flex items-center gap-1">
-          <span class="text-gray-4 line-clamp-1">{{ quantity }} x</span
-          ><span class="font-semibold line-clamp-1">{{ price.toFixed(2) }}</span>
+          <span class="text-gray-4 line-clamp-1 break-all">{{ quantity }} x</span
+          ><span class="font-semibold line-clamp-1 break-all">{{ price.toFixed(2) }}</span>
         </p>
       </div>
     </div>

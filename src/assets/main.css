@@ -22,11 +22,13 @@ html::-webkit-scrollbar {
   @apply bg-primary w-2;
 }
 
-.wish-list::-webkit-scrollbar {
+.wish-list::-webkit-scrollbar,
+.order-history::-webkit-scrollbar {
   @apply bg-gray-1 w-2;
 }
 
-.wish-list::-webkit-scrollbar-thumb {
+.wish-list::-webkit-scrollbar-thumb,
+.order-history::-webkit-scrollbar-thumb {
   @apply bg-primary w-2;
 }
 
