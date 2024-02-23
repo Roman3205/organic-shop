@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex-col flex mt-8 items-center">
+  <div class="w-full flex-col flex py-8 items-center">
     <BaseContactRespForm />
     <MyMapsBlock />
   </div>

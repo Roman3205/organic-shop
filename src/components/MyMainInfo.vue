@@ -35,7 +35,7 @@
 </template>
 
 <script setup>
-import MyButton from '@/components/MyButton.vue'
+import MyButton from './MyButton.vue'
 </script>
 
 <style lang="scss" scoped>

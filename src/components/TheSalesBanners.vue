@@ -31,8 +31,8 @@
 </template>
 
 <script setup>
-import MyButton from '@/components/MyButton.vue'
-import MyCounter from '@/components/MyCounter.vue'
+import MyButton from './MyButton.vue'
+import MyCounter from './MyCounter.vue'
 import { ref } from 'vue'
 
 const counters = ref([

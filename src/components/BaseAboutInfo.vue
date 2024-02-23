@@ -45,7 +45,7 @@
 </template>
 
 <script setup>
-import MyButton from '@/components/MyButton.vue'
+import MyButton from './MyButton.vue'
 const checkboxLables = [
   'Sed in metus pellentesque.',
   'Fusce et ex commodo, aliquam nulla efficitur, tempus lorem.',

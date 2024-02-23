@@ -21,9 +21,9 @@
 
 <script setup>
 import { computed } from 'vue'
-import TheCrossIcon from '@/components/icons/TheCrossIcon.vue'
-import ThePlusIcon from '@/components/icons/ThePlusIcon.vue'
-import TheMinusIcon from '@/components/icons/TheMinusIcon.vue'
+import TheCrossIcon from './icons/TheCrossIcon.vue'
+import ThePlusIcon from './icons/ThePlusIcon.vue'
+import TheMinusIcon from './icons/TheMinusIcon.vue'
 
 const props = defineProps({
   title: String,

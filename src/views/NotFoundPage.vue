@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-screen-lg w-full h-full py-14 flex flex-col items-center justify-center gap-5">
+  <div class="max-w-screen-lg w-full h-full py-14 flex flex-col items-center justify-start gap-5">
     <img src="@/assets/404.png" width="530" alt="" />
     <h3 class="font-semibold text-4xl text-center">Oops! page not found</h3>
     <p class="text-base text-gray-5 w-1/2 text-center">

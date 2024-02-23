@@ -16,8 +16,8 @@
       </div>
       <div>
         <i
-          :class="{ 'text-gray-400': stars < index }"
-          class="text-warning fa fa-star"
+          :class="{ 'text-gray-2': stars < index, 'text-warning': stars >= index }"
+          class="fa fa-star"
           v-for="index in 5"
           :key="index"
           aria-hidden="true"

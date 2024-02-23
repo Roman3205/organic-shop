@@ -10,10 +10,10 @@
 
 <script setup>
 import { computed } from 'vue'
-import TheTruckIcon from '@/components/icons/TheTruckIcon.vue'
-import TheSupportIcon from '@/components/icons/TheSupportIcon.vue'
-import TheSecureIcon from '@/components/icons/TheSecureIcon.vue'
-import TheBoxIcon from '@/components/icons/TheBoxIcon.vue'
+import TheTruckIcon from './icons/TheTruckIcon.vue'
+import TheSupportIcon from './icons/TheSupportIcon.vue'
+import TheSecureIcon from './icons/TheSecureIcon.vue'
+import TheBoxIcon from './icons/TheBoxIcon.vue'
 
 const props = defineProps({
   svg: String,

@@ -25,10 +25,10 @@
 </template>
 
 <script setup>
-import MyButton from '@/components/MyButton.vue'
-import TheAdminIcon from '@/components/icons/TheAdminIcon.vue'
-import TheCommentIcon from '@/components/icons/TheCommentIcon.vue'
-import TheTagIcon from '@/components/icons/TheTagIcon.vue'
+import MyButton from './MyButton.vue'
+import TheAdminIcon from './icons/TheAdminIcon.vue'
+import TheCommentIcon from './icons/TheCommentIcon.vue'
+import TheTagIcon from './icons/TheTagIcon.vue'
 
 defineProps({
   text: String,

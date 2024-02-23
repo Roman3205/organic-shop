@@ -24,7 +24,7 @@
 </template>
 
 <script setup>
-import MyButton from '@/components/MyButton.vue'
+import MyButton from './MyButton.vue'
 import TheOrderHistory from './TheOrderHistory.vue'
 </script>
 

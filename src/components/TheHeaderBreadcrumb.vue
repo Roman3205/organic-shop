@@ -17,8 +17,8 @@
 </template>
 
 <script setup>
-import TheHouseIcon from '@/components/icons/TheHouseIcon.vue'
-import TheArrowIcon from '@/components/icons/TheArrowIcon.vue'
+import TheHouseIcon from './icons/TheHouseIcon.vue'
+import TheArrowIcon from './icons/TheArrowIcon.vue'
 </script>
 
 <style lang="scss" scoped></style>

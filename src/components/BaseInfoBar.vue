@@ -15,7 +15,7 @@
 </template>
 
 <script setup>
-import BaseBarItem from '@/components/BaseBarItem.vue'
+import BaseBarItem from './BaseBarItem.vue'
 const bars = [
   {
     id: 1,

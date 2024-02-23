@@ -75,9 +75,9 @@
 </template>
 
 <script setup>
-import TheCartIcon from '@/components/icons/TheCartIcon.vue'
-import TheHeartIcon from '@/components/icons/TheHeartIcon.vue'
-import MyCounter from '@/components/MyCounter.vue'
+import TheCartIcon from './icons/TheCartIcon.vue'
+import TheHeartIcon from './icons/TheHeartIcon.vue'
+import MyCounter from './MyCounter.vue'
 import { computed, ref } from 'vue'
 
 const props = defineProps({

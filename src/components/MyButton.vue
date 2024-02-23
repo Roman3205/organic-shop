@@ -10,7 +10,7 @@
 
 <script setup>
 import { useAttrs } from 'vue'
-import TheArrowIcon from '@/components/icons/TheArrowIcon.vue'
+import TheArrowIcon from './icons/TheArrowIcon.vue'
 
 const attrs = useAttrs()
 </script>

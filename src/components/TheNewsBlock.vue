@@ -18,7 +18,7 @@
 </template>
 
 <script setup>
-import BaseNewsItem from '@/components/BaseNewsItem.vue'
+import BaseNewsItem from './BaseNewsItem.vue'
 
 const newsBlocks = [
   {

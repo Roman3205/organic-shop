@@ -33,10 +33,10 @@
 </template>
 
 <script setup>
-import BaseProduct from '@/components/BaseProduct.vue'
-import MyButton from '@/components/MyButton.vue'
+import BaseProduct from './BaseProduct.vue'
+import MyButton from './MyButton.vue'
 import { ref } from 'vue'
-import TheHotestProduct from '@/components/TheHotestProduct.vue'
+import TheHotestProduct from './TheHotestProduct.vue'
 
 const products = [
   {

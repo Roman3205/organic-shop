@@ -22,13 +22,12 @@
 </template>
 
 <script setup>
-import TheSquaresIcon from '@/components/icons/TheSquaresIcon.vue'
-import TheArrowPath from '@/components/icons/TheArrowPath.vue'
-import TheHeartIcon from '@/components/icons/TheHeartIcon.vue'
-import TheCartIcon from '@/components/icons/TheCartIcon.vue'
-import TheSettingsIcon from '@/components/icons/TheSettingsIcon.vue'
-
-import TheLogOutIcon from '@/components/icons/TheLogOutIcon.vue'
+import TheSquaresIcon from './icons/TheSquaresIcon.vue'
+import TheArrowPath from './icons/TheArrowPath.vue'
+import TheHeartIcon from './icons/TheHeartIcon.vue'
+import TheCartIcon from './icons/TheCartIcon.vue'
+import TheSettingsIcon from './icons/TheSettingsIcon.vue'
+import TheLogOutIcon from './icons/TheLogOutIcon.vue'
 
 const navItems = [
   {

@@ -96,12 +96,12 @@
 </template>
 
 <script setup>
-import TheLogoIcon from '@/components/icons/TheLogoIcon.vue'
-import TheMapIcon from '@/components/icons/TheMapIcon.vue'
-import TheSearchIcon from '@/components/icons/TheSearchIcon.vue'
-import TheCartIcon from '@/components/icons/TheCartIcon.vue'
-import TheHeartIcon from '@/components/icons/TheHeartIcon.vue'
-import ThePhoneIcon from '@/components/icons/ThePhoneIcon.vue'
+import TheLogoIcon from './icons/TheLogoIcon.vue'
+import TheMapIcon from './icons/TheMapIcon.vue'
+import TheSearchIcon from './icons/TheSearchIcon.vue'
+import TheCartIcon from './icons/TheCartIcon.vue'
+import TheHeartIcon from './icons/TheHeartIcon.vue'
+import ThePhoneIcon from './icons/ThePhoneIcon.vue'
 </script>
 
 <style lang="scss" scoped></style>

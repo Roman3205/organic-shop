@@ -12,6 +12,8 @@ import AboutPage from '@/views/AboutPage.vue'
 import TheOrderHistory from '@/components/TheOrderHistory.vue'
 import TheDashboard from '@/components/TheDashboard.vue'
 import ProductDetalizedPage from '@/views/ProductDetalizedPage.vue'
+import CheckoutPage from '@/views/CheckoutPage.vue'
+import OrderDetailsPage from '@/views/OrderDetailsPage.vue'
 
 const router = createRouter({
   history: createWebHistory(),
@@ -31,22 +33,27 @@ const router = createRouter({
       component: FaqsPage,
     },
     {
-      path: '/sign-up',
+      path: '/account/create-account',
       name: 'sign-up',
       component: SignUpPage
     },
     {
-      path: '/product/details/:id',
+      path: '/account/order-history/details/:id',
+      name: 'order-details',
+      component: OrderDetailsPage
+    },
+    {
+      path: '/category/:category/:title',
       name: 'product-detalized',
       component: ProductDetalizedPage
     },
     {
-      path: '/account/orders/all',
+      path: '/account/order-history',
       name: 'orders',
       component: TheOrderHistory
     },
     {
-      path: '/sign-in',
+      path: '/account/login',
       name: 'sign-in',
       component: SignInPage
     },
@@ -60,6 +67,7 @@ const router = createRouter({
       name: 'cart',
       component: ShoppingCartPage
     },
+
     {
       path: '/wish-list',
       name: 'wish-list',
@@ -71,9 +79,14 @@ const router = createRouter({
       component: AboutPage
     },
     {
-      path: '/product/:id',
+      path: '/product/:title',
       name: 'product',
       component: ProductPage
+    },
+    {
+      path: '/shopping-cart/checkout',
+      name: 'checkout',
+      component: CheckoutPage
     },
     {
       path: '/contact',

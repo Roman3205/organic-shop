@@ -29,8 +29,8 @@
 </template>
 
 <script setup>
-import MyButton from '@/components/MyButton.vue'
-import BaseFeedbackItem from '@/components/BaseFeedbackItem.vue'
+import MyButton from './MyButton.vue'
+import BaseFeedbackItem from './BaseFeedbackItem.vue'
 import { ref } from 'vue'
 
 const feedbacks = [

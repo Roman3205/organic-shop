@@ -62,9 +62,9 @@
 </template>
 
 <script setup>
-import TheEnvelopeIcon from '@/components/icons/TheEnvelopeIcon.vue'
-import TheMapIcon from '@/components/icons/TheMapIcon.vue'
-import ThePhoneIcon from '@/components/icons/ThePhoneIcon.vue'
+import TheEnvelopeIcon from './icons/TheEnvelopeIcon.vue'
+import TheMapIcon from './icons/TheMapIcon.vue'
+import ThePhoneIcon from './icons/ThePhoneIcon.vue'
 </script>
 
 <style lang="scss" scoped></style>

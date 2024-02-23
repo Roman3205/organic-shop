@@ -47,8 +47,8 @@
 </template>
 
 <script setup>
-import TheLogoIcon from '@/components/icons/TheLogoIcon.vue'
-import FooterNavItem from '@/components/FooterNavItem.vue'
+import TheLogoIcon from './icons/TheLogoIcon.vue'
+import FooterNavItem from './FooterNavItem.vue'
 const navItems = [
   {
     id: 1,

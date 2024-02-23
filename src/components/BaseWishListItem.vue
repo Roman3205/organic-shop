@@ -39,7 +39,7 @@
 
 <script setup>
 import { computed } from 'vue'
-import TheCrossIcon from '@/components/icons/TheCrossIcon.vue'
+import TheCrossIcon from './icons/TheCrossIcon.vue'
 import { useStock } from '../use/stockCheck'
 
 const props = defineProps({

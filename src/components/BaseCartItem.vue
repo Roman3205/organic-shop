@@ -15,7 +15,7 @@
 </template>
 
 <script setup>
-import TheCrossIcon from '@/components/icons/TheCrossIcon.vue'
+import TheCrossIcon from './icons/TheCrossIcon.vue'
 
 defineProps({
   title: String,

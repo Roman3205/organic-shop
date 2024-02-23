@@ -1,5 +1,5 @@
 <template>
-  <div class="flex w-full flex-col mt-3 mb-14 items-center">
+  <div class="flex w-full flex-col gap-6 mt-3 mb-14 items-center">
     <MyProduct
       class="w-full max-w-screen-lg"
       :reviews="product.reviews"
@@ -16,7 +16,7 @@
       :stockCheck="stockCheck"
       :lastPrice="lastPrice"
     />
-    <div class="w-full flex justify-center">
+    <div class="w-full flex justify-center mb-5">
       <TheProductInfoSlider />
     </div>
     <div class="flex flex-col gap-5 max-w-screen-lg">
@@ -40,7 +40,7 @@
 
 <script setup>
 import BaseProduct from '@/components/BaseProduct.vue'
-import { ref, computed } from 'vue'
+import { ref, computed, provide } from 'vue'
 import { useStock } from '../use/stockCheck'
 import { useLastPrice } from '../use/lastPrice'
 import MyProduct from '@/components/MyProduct.vue'
@@ -58,8 +58,26 @@ const product = ref({
   description:
     'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla nibh diam, blandit vel consequat nec, ultrices et ipsum. Nulla varius magna a consequat pulvinar. ',
   quantity: 5,
-  category: 'Vegetables'
+  category: 'Vegetables',
+  weight: 0.3,
+  color: 'green',
+  type: 'Organic',
+  tags: ['Vegetables', 'Healthy', 'Chiness', 'Cabbage', 'Green Cabbage']
 })
+
+const stockStatus = computed(() =>
+  product.value.inStock == true ? 'Available' : product.value.inStock == false ? 'Unavailable' : ''
+)
+
+provide('product-sale', product.value.sale)
+provide('infoData', [
+  product.value.weight,
+  product.value.color,
+  product.value.type,
+  product.value.category,
+  stockStatus.value,
+  product.value.tags
+])
 
 const stockCheck = computed(() => useStock(product.value.inStock))
 const lastPrice = computed(() => useLastPrice(product.value.price, product.value.sale))

@@ -18,8 +18,8 @@
 </template>
 
 <script setup>
-import BaseCategoryItem from '@/components/BaseCategoryItem.vue'
-import MyButton from '@/components/MyButton.vue'
+import BaseCategoryItem from './BaseCategoryItem.vue'
+import MyButton from './MyButton.vue'
 
 const categories = [
   {

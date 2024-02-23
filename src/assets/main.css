@@ -27,9 +27,19 @@ html::-webkit-scrollbar {
   @apply bg-gray-1 w-2;
 }
 
+.checkout-cart::-webkit-scrollbar,
+textarea::-webkit-scrollbar {
+  @apply bg-gray-1 w-1.5;
+}
+
 .wish-list::-webkit-scrollbar-thumb,
 .order-history::-webkit-scrollbar-thumb {
   @apply bg-primary w-2;
+}
+
+.checkout-cart::-webkit-scrollbar-thumb,
+textarea::-webkit-scrollbar-thumb {
+  @apply bg-primary w-1.5;
 }
 
 body {

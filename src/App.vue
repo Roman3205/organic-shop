@@ -4,7 +4,7 @@
     <TheCart v-if="showCart" />
     <TheHeader />
     <TheHeaderBreadcrumb v-if="!showBlocksNotFound" />
-    <AccountPage v-if="showAccount"></AccountPage>
+    <AccountPage class="account" v-if="showAccount"></AccountPage>
     <router-view class="main" v-else></router-view>
     <NewsLetterBlock v-if="!showBlocksNotFound" />
     <TheFooter />
@@ -40,5 +40,9 @@ const showAccount = computed(() => accountRoutes.includes(route.name))
 }
 .main {
   min-height: calc(100vh - 332px - 108px - 81px - 37px);
+}
+
+.account {
+  min-height: calc(100vh - 332px - 415px);
 }
 </style>

@@ -31,9 +31,9 @@
 </template>
 
 <script setup>
-import BaseOrderHistoryItem from '@/components/BaseOrderHistoryItem.vue'
+import BaseOrderHistoryItem from './BaseOrderHistoryItem.vue'
 import { computed, ref, useAttrs } from 'vue'
-import MyButton from '@/components/MyButton.vue'
+import MyButton from './MyButton.vue'
 
 const props = defineProps({
   title: {

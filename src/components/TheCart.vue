@@ -46,8 +46,8 @@
 </template>
 
 <script setup>
-import TheCrossIcon from '@/components/icons/TheCrossIcon.vue'
-import BaseCartItem from '@/components/BaseCartItem.vue'
+import TheCrossIcon from './icons/TheCrossIcon.vue'
+import BaseCartItem from './BaseCartItem.vue'
 import { ref } from 'vue'
 
 const cartProducts = ref([

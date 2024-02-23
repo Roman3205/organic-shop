@@ -99,12 +99,12 @@
 </template>
 
 <script setup>
-import TheHeartIcon from '@/components/icons/TheHeartIcon.vue'
-import TheArrowIcon from '@/components/icons/TheArrowIcon.vue'
-import TheCartIcon from '@/components/icons/TheCartIcon.vue'
-import TheMinusIcon from '@/components/icons/TheMinusIcon.vue'
-import ThePlusIcon from '@/components/icons/ThePlusIcon.vue'
-import TheCrossIcon from '@/components/icons/TheCrossIcon.vue'
+import TheHeartIcon from './icons/TheHeartIcon.vue'
+import TheArrowIcon from './icons/TheArrowIcon.vue'
+import TheCartIcon from './icons/TheCartIcon.vue'
+import TheMinusIcon from './icons/TheMinusIcon.vue'
+import ThePlusIcon from './icons/ThePlusIcon.vue'
+import TheCrossIcon from './icons/TheCrossIcon.vue'
 
 defineProps({
   images: Array,

@@ -23,8 +23,8 @@
 </template>
 
 <script setup>
-import BaseProduct from '@/components/BaseProduct.vue'
-import MyButton from '@/components/MyButton.vue'
+import BaseProduct from './BaseProduct.vue'
+import MyButton from './MyButton.vue'
 
 const products = [
   {

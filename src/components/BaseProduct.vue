@@ -46,8 +46,8 @@
 </template>
 
 <script setup>
-import TheCartIcon from '@/components/icons/TheCartIcon.vue'
-import TheHeartIcon from '@/components/icons/TheHeartIcon.vue'
+import TheCartIcon from './icons/TheCartIcon.vue'
+import TheHeartIcon from './icons/TheHeartIcon.vue'
 
 const props = defineProps({
   title: String,

@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-screen-lg w-full h-full pt-6 pb-10 flex flex-col gap-10">
+  <div class="max-w-screen-lg w-full h-full pt-8 pb-10 flex flex-col gap-10">
     <h1 class="text-3xl font-semibold text-gray-9 text-center">My Wishlist</h1>
     <div class="rounded-lg border-2 border-gray-0">
       <div

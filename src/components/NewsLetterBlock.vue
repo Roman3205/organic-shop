@@ -31,9 +31,9 @@
 </template>
 
 <script setup>
-import TheFacebookIcon from '@/components/icons/TheFacebookIcon.vue'
-import TheInstagramIcon from '@/components/icons/TheInstagramIcon.vue'
-import TheTwitterIcon from '@/components/icons/TheTwitterIcon.vue'
+import TheFacebookIcon from './icons/TheFacebookIcon.vue'
+import TheInstagramIcon from './icons/TheInstagramIcon.vue'
+import TheTwitterIcon from './icons/TheTwitterIcon.vue'
 </script>
 
 <style lang="scss" scoped>

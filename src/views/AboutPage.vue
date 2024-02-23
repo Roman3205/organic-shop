@@ -1,5 +1,5 @@
 <template>
-  <div class="my-6 mb-12 flex flex-col items-center w-full">
+  <div class="py-8 mb-12 flex flex-col items-center w-full">
     <BaseAboutInfo />
     <BaseTeamBlock />
     <TheFeedbacksBlock />
