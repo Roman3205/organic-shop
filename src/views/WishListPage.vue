@@ -1,9 +1,9 @@
 <template>
   <div class="max-w-screen-lg w-full h-full pt-8 pb-10 flex flex-col gap-10">
     <h1 class="text-3xl font-semibold text-gray-9 text-center">My Wishlist</h1>
-    <div class="rounded-lg border-2 border-gray-0">
+    <div class="rounded-lg border-2 border-gray-1">
       <div
-        class="grid grid-cols-12 border-b border-gray-0 px-6 py-3 text-gray-5 uppercase text-base font-medium"
+        class="grid grid-cols-12 border-b border-gray-1 px-6 py-3 text-gray-5 uppercase text-base font-medium"
       >
         <p class="col-span-5">product</p>
         <p class="col-span-3">price</p>

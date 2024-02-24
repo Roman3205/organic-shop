@@ -25,7 +25,7 @@ import AccountPage from './views/AccountPage.vue'
 const route = useRoute()
 const showPopup = ref(false)
 const showCart = ref(false)
-const accountRoutes = ['dashboard', 'orders']
+const accountRoutes = ['dashboard', 'orders', 'order-details']
 const showBlocksNotFound = computed(() => route.name === 'not-found')
 const showAccount = computed(() => accountRoutes.includes(route.name))
 </script>

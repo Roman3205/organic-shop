@@ -1,7 +1,7 @@
 <template>
   <div class="max-w-screen-lg w-full h-full flex justify-center items-center py-16">
     <form
-      class="flex flex-col w-1/2 gap-3 rounded-md shadow-xl shadow-gray-2 border-2 border-gray-0 p-8 bg-gray-white"
+      class="flex flex-col w-1/2 gap-3 rounded-md shadow-xl shadow-gray-2 border-2 border-gray-1 p-8 bg-gray-white"
     >
       <h3 class="text-4xl my-4 text-center font-semibold">Create Account</h3>
       <my-input type="email" placeholder="Email"></my-input>

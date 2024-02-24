@@ -3,9 +3,9 @@
     <h1 class="text-3xl font-semibold text-gray-9 text-center">My Shopping Cart</h1>
     <div class="flex justify-between items-start gap-5">
       <div class="flex flex-col gap-6 w-2/3">
-        <div class="rounded-lg border-2 border-gray-0">
+        <div class="rounded-lg border-2 border-gray-1">
           <div
-            class="grid grid-cols-12 border-b border-gray-0 px-6 py-3 text-gray-5 uppercase text-base font-medium"
+            class="grid grid-cols-12 border-b border-gray-1 px-6 py-3 text-gray-5 uppercase text-base font-medium"
           >
             <p class="col-span-5">product</p>
             <p class="col-span-2">price</p>
@@ -24,7 +24,7 @@
             />
           </div>
         </div>
-        <div class="flex justify-around items-center py-5 border-2 border-gray-0">
+        <div class="flex justify-around items-center py-5 border-2 border-gray-1">
           <h3 class="text-xl font-semibold">Coupon Code</h3>
           <form class="h-12 w-2/3 relative flex">
             <input
@@ -41,13 +41,13 @@
           </form>
         </div>
       </div>
-      <div class="p-5 rounded-md w-1/3 border-2 border-gray-0 flex flex-col gap-4">
+      <div class="p-5 rounded-md w-1/3 border-2 border-gray-1 flex flex-col gap-4">
         <h3 class="text-xl font-semibold">Cart Total</h3>
-        <div class="flex justify-between border-b border-gray-0 pb-3 items-center">
+        <div class="flex justify-between border-b border-gray-1 pb-3 items-center">
           <p>Subtotal:</p>
           <p class="font-semibold">&#36;84.00</p>
         </div>
-        <div class="flex border-b border-gray-0 pb-3 justify-between items-center">
+        <div class="flex border-b border-gray-1 pb-3 justify-between items-center">
           <p>Shipping:</p>
           <p class="font-semibold">Free</p>
         </div>

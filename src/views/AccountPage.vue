@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full max-w-screen-lg py-8 flex gap-5 items-start">
+  <div class="w-full max-w-screen-lg py-8 flex justify-between gap-5 items-start">
     <TheAccountNavigation />
     <router-view></router-view>
   </div>

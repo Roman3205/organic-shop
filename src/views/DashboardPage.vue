@@ -14,7 +14,7 @@
       <p class="text-gray-9 font-medium">(671) 555-0110</p>
       <my-button class="text-primary bg-transparent py-0">Edit Address</my-button>
     </div>
-    <TheOrderHistory
+    <OrderHistoryPage
       class="col-span-9"
       :compressed="true"
       :height-of-block="'h-64'"
@@ -24,8 +24,8 @@
 </template>
 
 <script setup>
-import MyButton from './MyButton.vue'
-import TheOrderHistory from './TheOrderHistory.vue'
+import MyButton from '@/components/MyButton.vue'
+import OrderHistoryPage from '@/views/OrderHistoryPage.vue'
 </script>
 
 <style lang="scss" scoped></style>

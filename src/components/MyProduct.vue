@@ -66,7 +66,7 @@
         </p>
       </div>
       <div class="flex items-center py-4 border-b border-gray-1 justify-between gap-3">
-        <div class="rounded-full w-fit gap-3 border border-gray-0 p-2 col-span-3 flex items-center">
+        <div class="rounded-full w-fit gap-3 border border-gray-1 p-2 col-span-3 flex items-center">
           <TheMinusIcon class="bg-gray-0 rounded-full p-1.5 flex justify-center items-center" />{{
             quantity
           }}<ThePlusIcon class="bg-gray-0 rounded-full p-1.5 flex justify-center items-center" />

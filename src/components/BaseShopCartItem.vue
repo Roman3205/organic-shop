@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full grid-cols-12 border-gray-0 grid py-3 px-5 items-center">
+  <div class="w-full grid-cols-12 border-gray-1 grid py-3 px-5 items-center">
     <div class="flex items-center gap-4 col-span-5">
       <img :src="`../src/assets/${image}.png`" width="80" :alt="image" />
       <p class="line-clamp-1 text-gray-9 font-medium pr-6 break-all">{{ title }}</p>
@@ -7,7 +7,7 @@
     <p class="line-clamp-1 text-gray-9 pr-6 col-span-2 font-semibold break-all">
       &#36;{{ price.toFixed(2) }}
     </p>
-    <div class="rounded-full w-fit gap-3 border border-gray-0 p-2 col-span-3 flex items-center">
+    <div class="rounded-full w-fit gap-3 border border-gray-1 p-2 col-span-3 flex items-center">
       <TheMinusIcon class="bg-gray-0 rounded-full p-1.5 flex justify-center items-center" />{{
         quantity
       }}<ThePlusIcon class="bg-gray-0 rounded-full p-1.5 flex justify-center items-center" />

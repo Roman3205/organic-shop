@@ -8,7 +8,7 @@
       :alt="image"
     />
     <div
-      class="flex h-2/5 rounded-b-md py-2 px-3 flex-col items-start border-b border-r border-l border-gray-0"
+      class="flex h-2/5 rounded-b-md py-2 px-3 flex-col items-start border-b border-r border-l border-gray-1"
     >
       <h4 class="text-base font-semibold">{{ name }}</h4>
       <p class="text-gray-4 text-sm">{{ position }}</p>

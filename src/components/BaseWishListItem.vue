@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full grid-cols-12 border-gray-0 grid py-2 px-5 items-center">
+  <div class="w-full grid-cols-12 border-gray-1 grid py-2 px-5 items-center">
     <div class="flex items-center gap-4 col-span-5">
       <img :src="`../src/assets/${image}.png`" width="100" :alt="image" />
       <p class="line-clamp-1 break-all text-gray-9 font-medium pr-6">{{ title }}</p>

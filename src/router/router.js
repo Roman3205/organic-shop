@@ -9,8 +9,8 @@ import ShoppingCartPage from '@/views/ShoppingCartPage.vue'
 import ProductPage from '@/views/ProductPage.vue'
 import ContactPage from '@/views/ContactPage.vue'
 import AboutPage from '@/views/AboutPage.vue'
-import TheOrderHistory from '@/components/TheOrderHistory.vue'
-import TheDashboard from '@/components/TheDashboard.vue'
+import OrderHistoryPage from '@/views/OrderHistoryPage.vue'
+import DashboardPage from '@/views/DashboardPage.vue'
 import ProductDetalizedPage from '@/views/ProductDetalizedPage.vue'
 import CheckoutPage from '@/views/CheckoutPage.vue'
 import OrderDetailsPage from '@/views/OrderDetailsPage.vue'
@@ -50,7 +50,7 @@ const router = createRouter({
     {
       path: '/account/order-history',
       name: 'orders',
-      component: TheOrderHistory
+      component: OrderHistoryPage
     },
     {
       path: '/account/login',
@@ -60,7 +60,7 @@ const router = createRouter({
     {
       path: '/account/dashboard',
       name: 'dashboard',
-      component: TheDashboard
+      component: DashboardPage
     },
     {
       path: '/shopping-cart',
